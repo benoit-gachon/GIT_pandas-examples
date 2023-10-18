@@ -5,7 +5,9 @@ import pandas as pd
 import numpy as np
 
 # Load Data
+<<<<<<< HEAD
 userHeader2= ['user_id', 'gender', 'age', 'ocupation', 'zip']
+=======
 users = pd.read_csv('dataSet/users.txt', engine='python',
                     sep='::', header=None, names=userHeader, encoding='ISO-8859-1')
 
